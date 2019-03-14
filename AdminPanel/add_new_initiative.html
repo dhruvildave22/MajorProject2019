@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>MHRD | Admin Panel | Add new Initiatives</title>
+  <link rel="shortcut icon" href="favicon.png" />
+  <!-- Bootstrap core CSS-->
+  <link href="files/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom fonts for this template-->
+  <link href="files/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- Page level plugin CSS-->
+  <link href="files/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+  <!-- Custom styles for this template-->
+  <link href="css/admin_panel.css" rel="stylesheet">
+</head>
+
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <a class="navbar-brand" href="index.html">MHRD</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav navbar-sidenav side-nav-color" id="exampleAccordion">
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+              <a class="nav-link" href="admin_dashboard.html">
+                  <i class="fa fa-fw fa-dashboard"></i>
+                  <span class="nav-link-text">Dashboard</span>
+              </a>
+          </li>
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+              <a class="nav-link" href="admin_charts.html">
+                  <i class="fa fa-fw fa-area-chart"></i>
+                  <span class="nav-link-text">Charts</span>
+              </a>
+          </li>
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="All Schemes">
+              <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponentsadd" data-parent="#exampleAccordion">
+                  <i class="fa fa-plus"></i>
+                  <span class="nav-link-text">Add New</span>
+              </a>
+              <ul class="sidenav-second-level collapse" id="collapseComponentsadd">
+                  <li>
+                      <a href="add_approved_institute.html"><i class="fa fa-angle-right"> </i> Approved Institute</a>
+                  </li>
+                  <li>
+                      <a class="" href="add_approved_institute.html"><i class="fa fa-angle-right"> </i> Approved Institution Course </a>
+                  </li>
+                  <li>
+                      <a class="" href="add_new_closed_courses.html"><i class="fa fa-angle-right"> </i> Closed Courses</a>
+                  </li>
+                  <li>
+                      <a class="" href="add_new_closed_institute.html"><i class="fa fa-angle-right"> </i> Closed Institute</a>
+                  </li>
+                  <li>
+                      <a class="" href="add_new_faculty.html"><i class="fa fa-angle-right"> </i> Institute Faculty</a>
+                  </li>
+                  <li>
+                      <a class="" href="admin_new_scheme.html"><i class="fa fa-angle-right"> </i> New Scheme</a>
+                  </li>
+                  <li>
+                      <a class="" href="add_new_initiative.html"><i class="fa fa-angle-right"> </i> New Initiative</a>
+                  </li>
+              </ul>
+          </li>
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="All Schemes">
+              <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
+                  <i class="fa fa-fw fa-heart"></i>
+                  <span class="nav-link-text">All Schemes</span>
+              </a>
+              <ul class="sidenav-second-level collapse" id="collapseComponents">
+                  <li class="nav-item" data-toggle="tooltip" data-placement="right" title="All Schemes">
+                      <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents1" data-parent="#exampleAccordion">
+                          <i class=""></i>
+                          <span class="nav-link-text">Higher Education</span>
+                      </a>
+                      <ul class="sidenav-second-level collapse" id="collapseComponents1">
+                          <li>
+                              <a href="higher_education.html"><i class="fa fa-angle-right"> </i> University and higher education</a>
+                          </li>
+                          <li>
+                              <a class="" href="school_education_literacy.html"><i class="fa fa-angle-right"> </i> Technical education</a>
+                          </li>
+                          <li>
+                              <a class="" href="school_education_literacy.html"><i class="fa fa-angle-right"> </i> PMMMNMTT</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="nav-item" data-toggle="tooltip" data-placement="right" title="All Schemes">
+                      <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents2" data-parent="#exampleAccordion">
+                          <i class=""></i>
+                          <span class="nav-link-text">School Education & Literacy</span>
+                      </a>
+                      <ul class="sidenav-second-level collapse" id="collapseComponents2">
+                          <li>
+                              <a href="higher_education.html"><i class="fa fa-angle-right"> </i> Elementary Education</a>
+                          </li>
+                          <li>
+                              <a class="" href="school_education_literacy.html"><i class="fa fa-angle-right"> </i> Secondary Education</a>
+                          </li>
+                          <li>
+                              <a class="" href="school_education_literacy.html"><i class="fa fa-angle-right"> </i> Adult Education</a>
+                          </li>
+                          <li>
+                              <a class="" href="school_education_literacy.html"><i class="fa fa-angle-right"> </i> Teacher Education</a>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Users">
+              <a class="nav-link" href="mhrd_users.html">
+                  <i class="fa fa-fw fa-user"></i>
+                  <span class="nav-link-text">MHRD Users</span>
+              </a>
+          </li>
+          <!-- <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
+              <a class="nav-link" href="#">
+                  <i class="fa fa-fw fa-link"></i>
+                  <span class="nav-link-text">Link</span>
+              </a>
+          </li> -->
+      </ul>
+      <ul class="navbar-nav sidenav-toggler">
+        <li class="nav-item item-color">
+          <a class="nav-link text-center" id="sidenavToggler">
+            <i class="fa fa-fw fa-angle-left"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <form class="form-inline my-2 my-lg-0 mr-lg-2">
+            <div class="input-group">
+              <input class="form-control" type="text" placeholder="Search for...">
+              <span class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
+          </form>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
+            <i class="fa fa-fw fa-sign-out"></i>Logout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="content-wrapper">
+
+
+
+    <!-- body data-->
+
+    <div class="container">
+      <center><h2 style="background-color:#17c2f0; height:50px; color:white !important; border-radius:6px;">Ministry of Human Resource Development</h2></center>
+            <h2 class="text-center" style="margin-top: 6px padding:5px;"> Add New Initiative <sup><i class="fa fa-plus"></i></sup></h2>
+            <form method="post">
+              <div class="form-group">
+                <label for="title"><i class="fa fa-user"></i> Title:</label>
+                <input required type="text" class="form-control" id="title" placeholder="Enter title of your Initiative here..." name="title">
+              </div>
+              <div class="form-group">
+                <label for="category"><i class="fa fa-list"></i> Category :</label>
+                <select name="category" id="category" class="form-control">
+                  <option value="">
+                    ------------select category--------------
+                  </option>
+                <option value="Education for Girls">Education for Girls</option>
+                <option value="Persons with Special Needs">Persons with Special Needs</option>
+                <option value="Initiatives for the North East">Initiatives for the North East</option>
+                <option value="ICT enabled enhancement of learning opportunities">ICT enabled enhancement of learning opportunities</option>
+                <option value="Augmenting Research">Augmenting Research</option>
+              </select>
+              </div>
+              <!-- <div class="form-group">
+                <label for="scheme_category"><i class="fa fa-list"></i> Category :</label>
+                <select class="form-control" id="scheme_category" name="category">
+                  <option>Higher Education</option>
+                  <option>School Education & Literacy</option>
+                </select>
+              </div>
+              <div class="form-group" id="select_he">
+                <label for="higher-education">Sub Category :</label>
+                <select class="form-control" id="higher-education" name="sub_category">
+                  <option>University and higher education schemes</option>
+                  <option>Technical Education</option>
+                    <option>Add New</option>
+                </select>
+              </div>
+              <div class="form-group" id="select_sel">
+                <label for="school_education_literacy">Sub Category :</label>
+                <select class="form-control" id="school_education_literacy" name="sub_category">
+                  <option>Elementary Education</option>
+                  <option>Secondary Education</option>
+                  <option>Adult Education</option>
+                  <option>Teacher Education</option>
+                  <option>Add New</option>
+                </select>
+              </div>
+              <div class="form-group" id="new_cat">
+                <label for="scheme_image" >Category:</label>
+                <input required type="text" class="form-control" id="scheme" placeholder="Enter category name..." name="new_sub_category">
+              </div> -->
+              <div class="form-group">
+                  <label for="initiative_image"><i class="fa fa-image"></i> Initiative Image:</label>
+                  <input required type="file" class="form-control" id="initiative_image" placeholder="Select image/banner of your initiatives..." name="initiative_image">
+                </div>
+              <div class="form-group">
+                <label for="initiative_about"><i class="fa fa-list-alt"></i> Shrot Desc:</label>
+                <textarea required id="initiative_about" class="form-control form-rounded" rows="3" placeholder="Describe your Short Desription of Initiative here..." name="short_desc"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="scheme_about"><i class="fa fa-list-alt"></i> About:</label>
+                <textarea required id="initiative_about" class="form-control form-rounded" rows="3" placeholder="Describe your Initiative here..." name="about"></textarea>
+              </div>
+
+                  <!-- <div class="form-group">
+                      <label for="release_date">Release Date:</label>
+                      <input required type="date" class="form-control" id="release_date" name="release_date">
+                    </div> -->
+              <button type="submit" class="btn btn-default" name="submit">Submit</button>
+
+            </form>
+            <br>
+          </div>
+
+
+
+
+  </div>
+
+
+
+    <!-- /.container-fluid-->
+    <!-- /.content-wrapper-->
+    <footer class="sticky-footer">
+      <div class="container">
+        <div class="text-center">
+          <small>Copyright © The Decider 2018</small>
+        </div>
+      </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+    <!-- Logout Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="login.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript-->
+    <script src="files/jquery/jquery.min.js"></script>
+    <script src="files/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="files/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Page level plugin JavaScript-->
+    <script src="files/chart.js/Chart.min.js"></script>
+    <script src="files/datatables/jquery.dataTables.js"></script>
+    <script src="files/datatables/dataTables.bootstrap4.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/admin_panel.min.js"></script>
+    <!-- Custom scripts for this page-->
+    <script src="js/admin_panel_datatables.min.js"></script>
+    <script src="js/admin_panel_chart.min.js"></script>
+    <!-- <script>
+
+        $('#select_he').show();
+        $('#select_sel,#new_cat').hide();
+
+        $('#scheme_category').change(function () {
+            var selected = $('#scheme_category option:selected').text();
+            $('#select_he').toggle(selected == "Higher Education");
+        });
+
+        $('#scheme_category').change(function () {
+            var selected = $('#scheme_category option:selected').text();
+            $('#select_sel').toggle(selected == "School Education & Literacy");
+        });
+        $('#select_sel').change(function(){
+          var selected = $('#select_sel option:selected').text();
+          $("#new_cat").toggle(selected == "Add New");
+        });
+        $('#select_he').change(function(){
+          var selected = $('#select_he option:selected').text();
+          $("#new_cat").toggle(selected == "Add New");
+        });
+
+    </script> -->
+</body>
+
+</html>

@@ -1,0 +1,366 @@
+/*styling of nav section */
+
+/* nav {
+    padding-top: 54px;
+} */
+.pull-left {
+    margin: 21px;
+}
+
+#services .container{
+
+}
+
+@media (min-width: 1200px){
+  #services .container{
+      max-width: 1350px;
+  }
+
+  #About .container{
+      max-width: 1350px;
+  }
+  #Ministers .container{
+      max-width: 1350px;
+  }
+
+  #postsCarousel .container{
+      max-width: 1350px;
+  }
+
+  #socialhandles .container{
+      max-width: 1350px;
+  }
+
+  #myFooter .container{
+      max-width: 1350px;
+  }
+}
+
+/* styling of logo */
+#carouselExampleIndicators .carousel-item img{
+  height:655px !important;
+}
+
+/*styling of parralax starts */
+
+.begin-1,
+.begin-2,
+.begin-3,
+.begin-4 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.begin-2,
+.begin-4 {
+    opacity: 0.7;
+}
+
+.begin-1 {
+    background-image: url("../images/para1.jpg");
+    min-height: 60%;
+}
+
+.begin-2 {
+    background-image: url("../images/para2.jpeg");
+    min-height: 400px;
+}
+
+.begin-3 {
+    background-image: url("../images/para3.jpeg");
+    min-height: 400px;
+}
+
+.begin-4 {
+    background-image: url("../images/para4.jpeg");
+    min-height: 400px;
+}
+
+
+/*styling of parralax ends */
+
+
+/* styling of logo ends */
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active,
+.carousel-inner>.row-equal.next,
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left,
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+
+/* styling service icon */
+.service-icon {
+  border-radius: 70%;
+  background:orange;
+}
+
+.service-icon:hover {
+  border-radius: 90%;
+  background:green;
+}
+
+
+/*ministry section styling start */
+.style_featured{
+    padding: 20px 0;
+    text-align: center;
+}
+.style_featured > div > div{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.style_featured > div:hover > div{
+    margin-top: +19px;
+    border: 1px solid rgb(153, 200, 250);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 9px 9px 9px;
+    background: rgba(153, 200, 250, 0.1);
+    transition: 0.99s;
+}
+
+
+
+/*
+#ministry h1 {
+    font-size: 60px;
+    margin-top: 30px;
+    font-family: inherit;
+}
+
+#ministry button {
+    margin: 10px;
+    border-radius: 50px;
+} */
+
+/*social handles*/
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+
+
+/* styling of quote class*/
+
+/*counter css*/
+
+
+/*
+#counter {
+margin: 10px;
+}
+
+.c-no {
+height: 150px;
+}
+
+.grey-bg {
+background: #ebebeb;
+}
+
+.counter-Txt {
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+text-transform: uppercase;
+margin-top: 20px;
+}
+
+.counter-Txt span {
+display: block;
+font-size: 36px
+}
+
+@media(min-width:320px) and (max-width:767px) {
+.c-no {
+    height: 100%;
+}
+.counter-Txt {
+    margin-top: 35px;
+}
+.margin-bot-35 {
+    margin-bottom: 35px;
+}
+}
+
+*/
+
+/*counter css end */
+
+
+/*our team css starts*/
+
+
+/* #ourteam .card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: arial;
+}
+
+.card h3 {
+margin-top: 10px;
+}
+
+.card a {
+padding: 6px;
+}
+
+#ourteam .title {
+color: grey;
+font-size: 18px;
+}
+
+#ourteam button {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+#ourteam a {
+text-decoration: none;
+font-size: 22px;
+color: black;
+}
+
+#ourteam button:hover,
+a:hover {
+opacity: 0.7;
+}
+
+#ourteam h1 {
+font-family: sans-serif;
+} */
+
+
+/*media queries of nav section */
+
+@media (min-width: 992px) {
+    nav {
+        padding-top: 56px;
+    }
+}
+
+
+/*media queries of parallax effect */
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+
+/* @media only screen and (min-device-width: 540px) {
+.begin-1,
+.begin-2,
+.begin-3,
+.begin-4 {
+    background-attachment: scroll;
+}
+} */
+
+@media only screen and (max-width: 768px) {
+    .pull-left {
+    width: 100%;
+    }
+
+#carouselExampleIndicators .carousel-item img{
+  height:263px !important;
+}
+
+}
+/*
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 1024px){
+  .begin-1,
+  .begin-2,
+  .begin-3,
+  .begin-4 {
+
+    background-attachment: unset !important;
+  background-position: center top !important;
+  }
+
+} */
+
+@media screen and (max-width: 320px){
+
+  .begin-1,
+  .begin-2,
+  .begin-3,
+  .begin-4 {
+    -moz-background-size: auto;
+    -webkit-background-size: auto;
+    background-attachment: scroll;
+    background-position: top;
+    background-size: auto;
+   }
+}
+
+
+/* @media only screen and (min-width:540px) and (max-width:1024px) {
+    .begin-1,
+    .begin-2,
+    .begin-3,
+    .begin-4 {
+        background-attachment: scroll;
+    }
+} */
+
+
+/* @media only screen and (max-device-width: 1024px) {
+.begin-1,
+.begin-2,
+.begin-3,
+.begin-4 {
+    background-attachment: scroll;
+}
+} */

@@ -1,0 +1,22 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+.card-img-top{
+  height: 100px !important;
+}
+.card-title {
+  font-size: 22px;
+}
+.card-description{
+  font-size: 20px;
+}
+
+}
